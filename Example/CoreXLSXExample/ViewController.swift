@@ -7,7 +7,9 @@
 //
 
 import CoreXLSX
+#if canImport(UIKit)
 import UIKit
+#endif
 
 class ViewController: UIViewController {
   @IBOutlet var label: UILabel!
